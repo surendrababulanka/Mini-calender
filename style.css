@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    font-family: "Poppins", sans-serif;}
+.container{
+    background-color: #fff;
+    padding-bottom: 20px;
+    width: 350px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    letter-spacing: 1px;
+}
+.month{
+    background-color: red;
+    color: #fff;
+    padding: 10px 0px;
+    font-size: 22px;
+    border-radius: 5px;
+}
+.day,.year{
+    opacity: 0.5;
+}
+.date{
+    font-size: 5rem;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+}
